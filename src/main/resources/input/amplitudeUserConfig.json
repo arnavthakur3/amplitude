@@ -1,0 +1,30 @@
+{
+  "userFacingName": "Amplitude Configuration",
+  "authType": "ConnectorManaged",
+  "userConfig": [
+    {
+      "userFieldName": "api_key",
+      "userFieldType": "Textbox",
+      "description": "api-key provided by amplitude under organization settings -> Projects -> General -> API Key",
+      "isRequired": true
+    },
+    {
+      "userFieldName": "secret_key",
+      "userFieldType": "Textbox",
+      "description": "secret-key provided by amplitude under organization settings -> Projects -> General -> Secret Key",
+      "isRequired": true
+    },
+    {
+      "userFieldName": "start_date",
+      "userFieldType": "Textbox",
+      "description": "start date YYYYMMDD provide this format",
+      "isRequired": true
+    },
+    {
+      "userFieldName": "end_date",
+      "userFieldType": "Textbox",
+      "description": "start date YYYYMMDD provide this format",
+      "isRequired": true
+    }
+  ]
+}
